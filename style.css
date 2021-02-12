@@ -404,7 +404,7 @@ a {
     .journeyboxtwo {
         width: 90%;
         float: unset;
-        margin: 10px
+        margin: 15px;
     }
 
     .packets {
@@ -435,7 +435,7 @@ a {
     }
     
     .modal-content {
-        width: 70%;
+        width: 90%;
     }
 
     .mainpara {
@@ -487,6 +487,27 @@ a {
         font-size: 13px;
     }
 }
+
+@media only screen and (max-width: 320px)  {
+    .journeybox {
+        width: 85%;
+        float: unset;
+        margin: 47px;
+    }
+
+    .journeyboxtwo {
+        width: 85%;
+        float: unset;
+        margin: 47px;
+    }
+
+    .mainimage {
+        min-height: 1800px;
+    } 
+
+}
+
+
     
 
 
